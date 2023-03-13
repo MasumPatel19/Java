@@ -10,7 +10,6 @@ class Parent {
 	{
 		System.out.println("I am a parameterized constructor");
 	}
-
 }
 
 public class initializerblock_aftersuper extends Parent {
