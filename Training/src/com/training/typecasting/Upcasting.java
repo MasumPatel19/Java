@@ -22,5 +22,4 @@ public class Upcasting {
 		obj1.display();
 		obj2.display();
 	}
-
 }
