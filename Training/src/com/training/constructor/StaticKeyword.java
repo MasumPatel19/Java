@@ -16,6 +16,7 @@ public class StaticKeyword {
 
 //	int i = 1; //show an error 
 	static int i = 1;
+
 	
 	public static void main(String[] args) {
 
@@ -31,7 +32,6 @@ public class StaticKeyword {
 		student2.name = "XYZ";
 		Student.clgName = "KS";
 
-		
 		Student.clgName="BK";
 
 		student1.show();
