@@ -26,6 +26,5 @@ public class CallByValue {
 		System.out.println("Number before calling method : "+obj.n);
 		obj.changeNumber(obj);
 		System.out.println("Number after calling method : "+obj.n);
-
 	}
 }

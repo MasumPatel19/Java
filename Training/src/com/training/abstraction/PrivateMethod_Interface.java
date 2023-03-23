@@ -22,6 +22,6 @@ public class PrivateMethod_Interface implements TestPrivateMethod {
 
 		TestPrivateMethod obj = new PrivateMethod_Interface();
 		obj.call();
+		
 	}
-
 }
