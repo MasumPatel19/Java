@@ -1,7 +1,14 @@
 package com.training.constructor;
 
 class Parent {
-
+	{
+		System.out.println("I am parent instance initialized constructor1");
+	}
+	
+//	static initialized block
+	static {
+		System.out.println("I am a parent static instance initialized block1");
+	}
 	Parent() {
 		System.out.println("Hello , I am parent constructor");
 	}
@@ -15,7 +22,7 @@ class Parent {
 public class initializerblock_aftersuper extends Parent {
 
 	initializerblock_aftersuper() {
-		super();
+//		super();
 		System.out.println("I am a constructor of child.");
 	}
 

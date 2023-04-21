@@ -21,8 +21,11 @@ public class ArrayListMethods {
 		myArrayList.add("C");
 		System.out.println(myArrayList);
 
+		myArrayList.set(1, "X");
+		System.out.println(myArrayList);
+
 		System.out.println(myArrayList.contains("A"));
-		System.out.println(myArrayList.contains("X"));
+		System.out.println(myArrayList.contains("Y"));
 
 		System.out.println("At index of 1 : " + myArrayList.get(1));
 
